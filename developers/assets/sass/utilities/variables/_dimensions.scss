@@ -1,0 +1,46 @@
+//
+// Dimensions Variables
+//=======================
+
+$base--width: 1280;
+$gutter: 40px;
+
+//
+// Max Widths
+//==========================
+$max-width: $base--width + px;
+$max-width-larger-screen: 1140px;
+$max-width-large-screen: 960px;
+$max-width--medium-screen: 800px;
+$max-width__landing-page: 800px;
+
+//
+// Content Widths
+//==========================
+$content--width: 880px;
+//$content--width: $base--width * 0.6875 + px;
+$content--width-larger-screen: 800px;
+$content--width-large-screen: 620px;
+$content-both-sidebars--width: 660px;
+$content-both-sidebars--width-larger-screen: 580px;
+$content-both-sidebars--width-large-screen: 400px;
+
+$primary-sidebar--width: 360px;
+//$primary-sidebar--width: $max-width - $content--width - $gutter;
+//$primary-sidebar--width: $base--width * 0.28125 + px;
+$primary-sidebar--width-larger-screen: 300px;
+$secondary-sidebar--width: 180px;
+
+$content-sidebar-wrap--width: 1060px;
+$content-sidebar-wrap--width-larger-screen: 920px;
+$content-sidebar-wrap--width-large-screen: 740px;
+
+// Header Module
+$title-area--width: 300px;
+$site-title--min-height: 80px;
+$header-right--width: 800px;
+$header-right--width-large-screen: 620px;
+
+// Footer Module
+$footer-widths--width: 380px;
+$footer-widths--width-large-screen: 300px;

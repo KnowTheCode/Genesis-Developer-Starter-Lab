@@ -1,0 +1,29 @@
+/*!
+	Theme Name: Developers
+	Theme URI: https://knowthecode.io
+
+	Description: The Genesis-powered Developer's Starter Child Theme
+	Author: hellofromTonya
+	Author URI: https://UpTechLabs.io
+
+	Version: 1.0.2
+
+	Tags: black, red, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+	Template: genesis
+	Template Version: 2.2.3
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+	Text Domain: developers
+*/
+@import 'bourbon';
+@import 'neat';
+@import '../../node_modules/sass-rem/rem';
+
+@import 'utilities/index';
+@import 'base/index';
+@import 'layouts/index';
+@import 'components/index';
+@import 'plugins/index';
+@import 'views/index';

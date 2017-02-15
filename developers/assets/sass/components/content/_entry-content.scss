@@ -1,0 +1,27 @@
+/* ## Entry Content
+--------------------------------------------- */
+
+.entry-content {
+  ol, ul {
+    margin-bottom: 28px;
+    margin-left: 40px;
+  }
+
+  ol > li {
+    list-style-type: decimal;
+  }
+
+  ul > li {
+    list-style-type: disc;
+  }
+
+  ol ol,
+  ul ul {
+    margin-bottom: 0;
+  }
+
+  code {
+    background-color: $entry-content__code--background-color;
+    color: $entry-content__code--color;
+  }
+}

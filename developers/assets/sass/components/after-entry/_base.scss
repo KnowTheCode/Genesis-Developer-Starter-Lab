@@ -1,0 +1,11 @@
+.after-entry {
+  background-color: $after-entry--background-color;
+  @include rem( font-size, $after-entry--font-size );
+  margin-bottom: 40px;
+  padding: 60px;
+
+   @include media( $breakpoint__screen-size--small ) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}

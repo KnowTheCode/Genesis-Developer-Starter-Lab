@@ -1,0 +1,29 @@
+//
+// Comments base stylings
+//========================
+
+.comment-respond,
+.entry-comments,
+.entry-pings {
+  background-color: $comment--background-color;
+  @include rem( font-size, $comments--font-size );
+  margin-bottom: 40px;
+
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}
+
+.comment-respond,
+.entry-pings {
+  padding: 60px 60px 32px;
+}
+
+.entry-comments {
+  padding: 60px;
+}
+
+.entry-pings .reply {
+  display: none;
+}

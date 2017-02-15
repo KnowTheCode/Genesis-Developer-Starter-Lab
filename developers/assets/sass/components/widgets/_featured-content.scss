@@ -1,0 +1,17 @@
+/* ## Featured Content
+--------------------------------------------- */
+
+.featured-content {
+  .entry {
+    background: none;
+    padding: 0;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-title {
+    @include rem( font-size, $featured-content__entry-title--font-size );
+  }
+}

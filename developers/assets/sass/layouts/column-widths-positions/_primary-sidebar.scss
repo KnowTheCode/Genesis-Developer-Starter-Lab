@@ -1,0 +1,16 @@
+/* ### Primary Sidebar */
+
+.sidebar-primary {
+  float: right;
+  width: $primary-sidebar--width;
+
+   @include media( $breakpoint__screen-size--larger ) {
+    width: $primary-sidebar--width-larger-screen;
+  }
+
+  .sidebar-content &,
+  .sidebar-sidebar-content & {
+    float: left;
+  }
+}
+

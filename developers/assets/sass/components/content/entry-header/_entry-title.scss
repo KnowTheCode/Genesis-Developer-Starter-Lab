@@ -1,0 +1,17 @@
+//
+// Entry Title
+//======================
+
+.entry-title {
+  @include rem( font-size, $entry-title--font-size );
+
+  a {
+    color: $entry-title--link-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $entry-title--hover-color;
+    }
+  }
+}

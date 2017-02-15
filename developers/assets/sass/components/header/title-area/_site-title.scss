@@ -1,0 +1,16 @@
+//
+// Site Title
+//========================
+
+.site-title {
+  @include rem( font-size, $site-title--font-size );
+  font-weight: 700;
+  line-height: 1.2;
+
+  a,
+  a:hover,
+  a:focus {
+    color: $site-title--link-color;
+    text-decoration: none;
+  }
+}

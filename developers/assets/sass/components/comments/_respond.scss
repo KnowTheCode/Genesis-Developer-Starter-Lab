@@ -1,0 +1,16 @@
+//
+// Comment Respond
+//========================
+
+.comment-respond {
+  label {
+    display: block;
+    margin-right: 12px;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  input[type="url"] {
+    width: 50%;
+  }
+}

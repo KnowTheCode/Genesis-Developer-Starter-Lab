@@ -1,0 +1,13 @@
+/* ## Box Sizing
+--------------------------------------------- */
+
+html,
+input[type="search"]{
+  box-sizing:         border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

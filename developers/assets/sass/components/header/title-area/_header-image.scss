@@ -1,0 +1,26 @@
+.header-image {
+
+  .title-area {
+    margin: 0 auto;
+    max-width: $title-area--width;
+    padding: 0;
+
+    @media only screen and (max-width: 1023px) {
+      float: none;
+    }
+  }
+
+  .site-title > a {
+    background-position: center !important;
+    background-size: contain !important;
+    float: left;
+    min-height: $site-title--min-height;
+    width: 100%;
+  }
+
+  .site-description,
+  .site-title {
+    display: block;
+    text-indent: -9999px;
+  }
+}

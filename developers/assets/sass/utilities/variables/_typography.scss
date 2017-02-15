@@ -1,0 +1,83 @@
+// Common Fonts
+$font-family--source-sans-pro: 'Source Sans Pro', sans-serif;
+
+// Base Typography
+$html--font-size: 62.5%;
+
+$base--font-family: $font-family--source-sans-pro;
+$base--font-size: 20px;
+$base--font-size--small-screen: 18px;
+$base__div--font-size: 2rem;
+$base__div--font-size--small-screen: 1.8rem;
+$base--line-height: 1.625;
+
+// Headings
+$headings--font-family: $font-family--source-sans-pro;
+$headings--line-height: 1.2;
+$h1--font-size:  36px;
+$h2--font-size:  30px;
+$h3--font-size:  24px;
+$h4--font-size:  20px;
+$h5--font-size:  18px;
+$h6--font-size:  16px;
+
+// Elements
+$blockquote--font-size: 30px;
+$input--font-size: 18px;
+$button--font-size: 16px;
+
+//
+// Navigation
+//===========
+$nav--font-size: 16px;
+$submenu--font-size: 14px;
+$primary-nav--font-size: 14px;
+$archive-pagination--font-size: 16px;
+
+//
+// Header
+//==================
+$site-title--font-size: 30px;
+$site-description--font-size: 16px;
+
+
+//
+// Footer
+//==================
+$site-footer--font-size: 16px;
+$footer-widgets--font-size: 18px;
+
+//
+// Entry Content
+//===================
+$entry-meta--font-size: 16px;
+$entry-header__entry-meta--font-size: 16px;
+$entry-footer__entry-meta--font-size: 16px;
+
+$entry-title--font-size: 36px;
+
+//
+// Comments
+//===================
+$comments--font-size: 16px;
+
+//
+// Widgets
+//===================
+$widget-title--font-size: 18px;
+$featured-content__entry-title--font-size: 20px;
+
+//
+// Plugins
+//===================
+$enews--font-size: 16px;
+
+//
+// General Components
+//===================
+$breadcrumbs--font-size: 16px;
+$author-box--font-size: 18px;
+$author-box__Title--font-size: 20px;
+$after-entry--font-size: 18px;
+$archive-description--font-size: 18px;
+$archive-title--font-size: 20px;

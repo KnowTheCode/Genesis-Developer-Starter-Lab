@@ -1,0 +1,25 @@
+.wp-caption.alignright {
+  margin: 0 0 24px 24px;
+}
+
+.wp-caption.alignleft {
+  margin: 0 24px 24px 0;
+}
+
+.wp-caption-text {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.entry-content p.wp-caption-text {
+  margin-bottom: 0;
+}
+
+.entry-content .wp-audio-shortcode,
+.entry-content .wp-playlist,
+.entry-content .wp-video {
+  margin: 0 0 28px;
+}

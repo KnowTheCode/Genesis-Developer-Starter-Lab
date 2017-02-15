@@ -1,0 +1,14 @@
+//
+// Site Description
+//========================
+
+.site-description {
+  @include rem( font-size, $site-description--font-size );
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.site-description,
+.site-title {
+  margin-bottom: 0;
+}

@@ -1,0 +1,17 @@
+//
+// Entry Meta
+//=====================
+
+.entry-footer {
+  .entry-meta {
+    border-top: 1px solid $entry-footer__meta--border-color;
+    padding-top: 24px;
+    margin-bottom: 0;
+    //@include rem( font-size, $entry-footer__entry-meta--font-size );
+  }
+}
+
+.entry-categories,
+.entry-tags {
+  display: block;
+}

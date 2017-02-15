@@ -1,0 +1,11 @@
+.entry-header {
+  .entry-meta {
+    margin-bottom: 24px;
+    //@include rem( font-size, $entry-header__entry-meta--font-size );
+  }
+}
+
+.entry-comments-link::before {
+  content: "\2014";
+  margin: 0 6px 0 2px;
+}

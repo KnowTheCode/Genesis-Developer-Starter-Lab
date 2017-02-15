@@ -1,0 +1,43 @@
+/* ## Search Form
+--------------------------------------------- */
+
+.search-form {
+
+  overflow: hidden;
+
+  .entry-content &,
+  .site-header & {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+
+  .site-header & {
+    float: right;
+    margin: 12px auto 0;
+
+    @media only screen and (max-width: 1023px) {
+      float: none;
+      margin: 16px auto;
+    }
+  }
+}
+
+.post-password-form,
+.search-form {
+  input[type="submit"] {
+    margin-top: 10px;
+  }
+}
+
+.genesis-nav-menu .search,
+.widget_search {
+  input[type="submit"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}

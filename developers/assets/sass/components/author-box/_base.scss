@@ -1,0 +1,19 @@
+.author-box {
+  background-color: $author-box--background-color;
+  @include rem( font-size, $author-box--font-size );
+  margin-bottom: 40px;
+  padding: 60px;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+   @include media( $breakpoint__screen-size--small ) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}
+
+.author-box-title {
+  font-size: $author-box__Title--font-size;
+}

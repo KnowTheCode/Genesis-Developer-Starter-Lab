@@ -1,0 +1,13 @@
+//
+// Widget Title Stylings
+//================================
+
+.sidebar .widget-title a {
+  color: $widget-title--link-color;
+  text-decoration: none;
+}
+
+.widget-title {
+  @include rem( font-size, $widget-title--font-size );
+  margin-bottom: 20px;
+}

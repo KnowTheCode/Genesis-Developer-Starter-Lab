@@ -1,0 +1,26 @@
+/* ### Wrapping div for .content and .sidebar-primary */
+
+.content-sidebar-wrap {
+  .content-sidebar-sidebar &,
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    width: $content-sidebar-wrap--width;
+
+     @include media( $breakpoint__screen-size--larger ) {
+      width: $content-sidebar-wrap--width-larger-screen;
+    }
+
+     @include media( $breakpoint__screen-size--large ) {
+      width: $content-sidebar-wrap--width-large-screen;
+    }
+  }
+
+  .content-sidebar-sidebar & {
+    float: left;
+  }
+
+  .sidebar-content-sidebar &,
+  .sidebar-sidebar-content & {
+    float: right;
+  }
+}
