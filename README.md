@@ -34,7 +34,7 @@ This child theme requires the following dependencies:
 To install this repository, do the following:
 
 1. Open up terminal and navigate to the `wp-content/themes` folder.
-2. Then type: git clone [https://github.com/KnowTheCode/Genesis-Developer-Starter-Lab](https://github.com/KnowTheCode/Genesis-Developer-Starter-Lab)
+2. Then type: git clone [git@github.com:KnowTheCode/Genesis-Developer-Starter-Lab.git](git@github.com:KnowTheCode/Genesis-Developer-Starter-Lab.git)
 3. Then move both themes out of the new folder and into the root of the `wp-content/themes` folder.
 4. You can then delete the new folder, as it's not needed any longer.
 
