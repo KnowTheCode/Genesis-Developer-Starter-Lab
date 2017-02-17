@@ -1,20 +1,20 @@
 <?php
 /**
- * Description
+ * Setup your child theme
  *
  * @package     KnowTheCode\Developers
- * @since       1.0.0
+ * @since       1.0.3
  * @author      hellofromTonya
  * @link        https://knowthecode.io
  * @license     GNU General Public License 2.0+
  */
 namespace KnowTheCode\Developers;
 
-add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme' );
+add_action( 'genesis_setup', __NAMESPACE__ . '\setup_child_theme', 15 );
 /**
  * Setup child theme.
  *
- * @since 1.0.0
+ * @since 1.0.3
  *
  * @return void
  */
