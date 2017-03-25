@@ -1,8 +1,10 @@
 ## 1.1.0 @25.Mar.2017
 
-Upgraded to include new changes from Genesis Sample version 2.3.0 including:
+- Upgraded to include new WooCommerce module in Genesis Sample version 2.3.0 
 
-- WooCommerce module
+- Moved setup parameters to configuration files.
+
+- Improvements to Customizer module code.
 
 ## 1.0.3 @17.Feb.2017
 

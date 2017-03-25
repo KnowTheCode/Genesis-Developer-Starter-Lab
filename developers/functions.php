@@ -3,7 +3,7 @@
  * Developer's Theme
  *
  * @package     KnowTheCode\Developers
- * @since       1.0.2
+ * @since       1.1.0
  * @author      hellofromTonya
  * @link        https://knowthecode.io
  * @license     GNU-2.0+

@@ -11,5 +11,10 @@
 namespace KnowTheCode\Developers;
 
 return array(
-
+	'blog_cat_num'              => 12,
+	'content_archive'           => 'full',
+	'content_archive_limit'     => 0,
+	'content_archive_thumbnail' => 0,
+	'posts_nav'                 => 'numeric',
+	'site_layout'               => 'content-sidebar',
 );
