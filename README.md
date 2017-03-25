@@ -1,6 +1,6 @@
 # Let’s Build a Custom Developer’s Genesis Starter Child Theme Lab
 
-Lab Date: July 21, 2016
+Lab Date: March 25, 2017
 
 This [hands-on coding lab](https://knowthecode.io/series/lets-build-custom-developers-genesis-starter-child-theme) walks you through the entire process of converting a standard Genesis theme into a developer-friendly, modular theme.  The purpose of this lab is to teach you about the following:
 
@@ -15,7 +15,7 @@ This [hands-on coding lab](https://knowthecode.io/series/lets-build-custom-devel
 
 There are 2 separate themes in this repository:
 
-1. Version 2.2.4 of the Genesis Sample Theme
+1. Version 2.3.0 of the Genesis Sample Theme
 2. The final Developers Starter Child Theme - it's the final version that you will build in this lab
 
 ## How about the new version of the Sample Theme?
