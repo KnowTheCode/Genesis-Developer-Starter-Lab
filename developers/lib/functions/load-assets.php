@@ -29,11 +29,11 @@ function enqueue_assets() {
 	wp_enqueue_style( 'dashicons' );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
-	$script_handle = CHILD_TEXT_DOMAIN . '-responsive-menu';
+	$script_handle = CHILD_TEXT_DOMAIN . '-responsive-menus';
 
 	wp_enqueue_script(
 		$script_handle,
-		CHILD_THEME_URL . "/assets/js/responsive-menu{$suffix}.js",
+		CHILD_THEME_URL . "/assets/js/responsive-menus{$suffix}.js",
 		array( 'jquery' ),
 		CHILD_THEME_VERSION,
 		true

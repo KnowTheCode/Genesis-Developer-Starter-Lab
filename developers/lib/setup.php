@@ -122,7 +122,7 @@ function get_theme_settings_defaults() {
 	static $config = array();
 
 	if ( ! $config ) {
-		$config = require( CHILD_DIR . '/config/theme-settings.php');
+		$config = require( CHILD_DIR . '/config/theme-defaults.php');
 	}
 
 	return $config;

@@ -21,7 +21,7 @@ add_action( 'switch_theme', __NAMESPACE__ . '\switching_theme_handler' );
  *
  * @return void
  */
-function reset_genesis_connect_install_notice() {
+function switching_theme_handler() {
 	require_once( WOOCOMMERCE_MODULE_DIR . 'admin-notices.php' );
 
 	reset_genesis_connect_install_notice();
