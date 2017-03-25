@@ -6,7 +6,7 @@
  * @since       1.0.2
  * @author      hellofromTonya
  * @link        https://knowthecode.io
- * @license     GNU General Public License 2.0+
+ * @license     GNU-2.0+
  */
 namespace KnowTheCode\Developers;
 

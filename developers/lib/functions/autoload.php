@@ -41,6 +41,8 @@ function load_nonadmin_files() {
 		'structure/post.php',
 //		'structure/sidebar.php',
 		'components/customizer/customizer.php',
+
+		'components/woocommerce/module.php',
 	);
 
 	load_specified_files( $filenames );

@@ -1,3 +1,9 @@
+## 1.1.0 @25.Mar.2017
+
+Upgraded to include new changes from Genesis Sample version 2.3.0 including:
+
+- WooCommerce module
+
 ## 1.0.3 @17.Feb.2017
 
 Changed the `setup_child_theme()` callback priority number to 15 to ensure that Genesis' setups run first before the child theme.
